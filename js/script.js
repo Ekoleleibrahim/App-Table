@@ -44,7 +44,7 @@ const divisionTable = function() {
     let division;
     for (let i = 0; i < myNumbers.length; i++) {
         division = ( nombre / myNumbers[i] )
-        li[i].textContent = nombre + " : " + myNumbers[i] + " = " + division;
+        li[i].textContent = nombre + " / " + myNumbers[i] + " = " + division;
     }
     return division
 }

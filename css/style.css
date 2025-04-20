@@ -9,17 +9,30 @@ body{
     background-color: #f1f1f1;
     min-height: 100vh;
     line-height: 1.7;
+    overflow-y: hidden;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+li{
+    background-color: rgba(72, 12, 128, 0.8);
+    padding: 4px;
+    color: white;
 }
 
 main{
-    padding: 100px 50px;
+    padding: 80px 50px;
     max-width: 600px;
     width: 100%;
     margin: auto;
 }
 
 h1{
-    color: rgb(34, 34, 34);
+    color: rgb(72, 12, 128);
     margin-bottom: 16px;
     font-size: 28px;
     text-align: center;
@@ -80,4 +93,13 @@ button:focus {
 
 #sectionResult ul{
     list-style-position: inside;
+}
+
+@media (max-width: 640px) {
+    main{
+        padding: 40px 24px;
+    }
+    body{
+        overflow-y: scroll;
+    }
 }
