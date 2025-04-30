@@ -45,7 +45,7 @@ p{
     letter-spacing: 1px;
 }
 
-input,
+input[type = "text"],
 select{
     display: inline-block;
     width: 100%;

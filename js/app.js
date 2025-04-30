@@ -1,2 +1,3 @@
-// Lancement de l'Application
-appOpen();
+// Lancer l'application
+
+appTable();

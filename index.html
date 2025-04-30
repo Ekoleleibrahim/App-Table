@@ -16,19 +16,20 @@
             <div>
                 <form>
                     <p>
-                        <select id="choixTable">
-                            <option value=""></option>
-                            <option value="multiplication">Multiplication</option>
-                            <option value="divsion">Division</option>
-                            <option value="addition">Addition</option>
-                            <option value="soustraction">Soustraction</option>
-                        </select>
+                        <input type="text" class="inputNumber">
                     </p>
                     <p>
-                        <input type="number" class="inputNumber">
-                    </p>
-                    <p>
-                        <button type="button" id="btnViewResultat">Résultat</button>
+                        <input type="radio" id="multiplication" name="optiontable" value="multiplication">
+                        <label for="mult">Multiplication</label>
+
+                        <input type="radio" id="division" name="optiontable" value="division">
+                        <label for="division">Division</label>
+
+                        <input type="radio" id="addition" name="optiontable" value="addition">
+                        <label for="addition">Addition</label>
+
+                        <input type="radio" id="soustraction" name="optiontable" value="soustraction">
+                        <label for="soustraction">Soustraction</label>
                     </p>
                 </form>
             </div>
